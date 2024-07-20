@@ -1,0 +1,29 @@
+.slide-in-bottom {
+  animation: slideInBottom 1.5s linear forwards;
+}
+
+@keyframes slideInBottom {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.navbar-open {
+  animation: navSlide 0.3s linear;
+}
+
+@keyframes navSlide {
+  0% {
+    transform: translateX(50%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
